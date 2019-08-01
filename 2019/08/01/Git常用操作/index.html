@@ -8,19 +8,23 @@
   <link rel="dns-prefetch" href="https://redlion1024.github.io">
   <title>Git常用操作 | RedLion1024_BLOG</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="操作集合如何将代码上传到Git 新建GitHub仓库 进入Eclipse工作台右键项目-&amp;gt;Team-&amp;gt;shareProject">
+  <meta name="description" content="操作集合如何将代码上传到Git 远端新建GitHub仓库  本地新建Git仓库（最好一个工作空间一个本地Git仓库）  进入Eclipse工作台右键项目-&amp;gt;Team-&amp;gt;shareProject  选择本地仓库将目标项目导入此时项目后会有Repository标识  再一次右键项目-&amp;gt;Team-&amp;gt;commit-&amp;gt;进入提交窗口-&amp;gt;选择目标文件-&amp;gt;点击绿色+  在">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Git常用操作">
 <meta property="og:url" content="https://redlion1024.github.io/2019/08/01/Git常用操作/index.html">
 <meta property="og:site_name" content="RedLion1024_BLOG">
-<meta property="og:description" content="操作集合如何将代码上传到Git 新建GitHub仓库 进入Eclipse工作台右键项目-&amp;gt;Team-&amp;gt;shareProject">
+<meta property="og:description" content="操作集合如何将代码上传到Git 远端新建GitHub仓库  本地新建Git仓库（最好一个工作空间一个本地Git仓库）  进入Eclipse工作台右键项目-&amp;gt;Team-&amp;gt;shareProject  选择本地仓库将目标项目导入此时项目后会有Repository标识  再一次右键项目-&amp;gt;Team-&amp;gt;commit-&amp;gt;进入提交窗口-&amp;gt;选择目标文件-&amp;gt;点击绿色+  在">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://redlion1024.github.io/2019/08/01/Git常用操作/newRep.png">
 <meta property="og:image" content="https://redlion1024.github.io/2019/08/01/Git常用操作/sharedProject.png">
-<meta property="og:updated_time" content="2019-08-01T02:23:34.042Z">
+<meta property="og:image" content="https://redlion1024.github.io/2019/08/01/Git常用操作/3.png">
+<meta property="og:image" content="https://redlion1024.github.io/2019/08/01/Git常用操作/4.png">
+<meta property="og:image" content="https://redlion1024.github.io/2019/08/01/Git常用操作/7.png">
+<meta property="og:image" content="https://redlion1024.github.io/2019/08/01/Git常用操作/8.png">
+<meta property="og:updated_time" content="2019-08-01T03:00:28.001Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git常用操作">
-<meta name="twitter:description" content="操作集合如何将代码上传到Git 新建GitHub仓库 进入Eclipse工作台右键项目-&amp;gt;Team-&amp;gt;shareProject">
+<meta name="twitter:description" content="操作集合如何将代码上传到Git 远端新建GitHub仓库  本地新建Git仓库（最好一个工作空间一个本地Git仓库）  进入Eclipse工作台右键项目-&amp;gt;Team-&amp;gt;shareProject  选择本地仓库将目标项目导入此时项目后会有Repository标识  再一次右键项目-&amp;gt;Team-&amp;gt;commit-&amp;gt;进入提交窗口-&amp;gt;选择目标文件-&amp;gt;点击绿色+  在">
 <meta name="twitter:image" content="https://redlion1024.github.io/2019/08/01/Git常用操作/newRep.png">
   
     <link rel="alternative" href="/atom.xml" title="RedLion1024_BLOG" type="application/atom+xml">
@@ -182,8 +186,25 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h2 id="操作集合"><a href="#操作集合" class="headerlink" title="操作集合"></a>操作集合</h2><h3 id="如何将代码上传到Git"><a href="#如何将代码上传到Git" class="headerlink" title="如何将代码上传到Git"></a>如何将代码上传到Git</h3><ol>
-<li>新建GitHub仓库<br><img src="//redlion1024.github.io/2019/08/01/Git常用操作/newRep.png" alt="记住URL"></li>
-<li>进入Eclipse工作台右键项目-&gt;Team-&gt;shareProject<br><img src="//redlion1024.github.io/2019/08/01/Git常用操作/sharedProject.png" alt="share"></li>
+<li><p>远端新建GitHub仓库<br><img src="//redlion1024.github.io/2019/08/01/Git常用操作/newRep.png" alt="记住URL"></p>
+</li>
+<li><p>本地新建Git仓库（最好一个工作空间一个本地Git仓库）</p>
+</li>
+<li><p>进入Eclipse工作台右键项目-&gt;Team-&gt;shareProject<br><img src="//redlion1024.github.io/2019/08/01/Git常用操作/sharedProject.png" alt="share"></p>
+</li>
+<li><p>选择本地仓库将目标项目导入<br><img src="//redlion1024.github.io/2019/08/01/Git常用操作/3.png" alt="本地仓库"><br>此时项目后会有Repository标识</p>
+</li>
+<li><p>再一次右键项目-&gt;Team-&gt;commit-&gt;进入提交窗口-&gt;选择目标文件-&gt;点击绿色+<br><img src="//redlion1024.github.io/2019/08/01/Git常用操作/4.png" alt="点击右上角绿色+"></p>
+</li>
+<li><p>在右图右上角的message框中填写描述信息后，点击上图右下角的commit按钮，将代码提交到本地仓库中</p>
+</li>
+<li><p>如果要提交到远程仓库中，点击右下角的commit and push按钮</p>
+</li>
+<li><p>如果是提交到了本地后要提交到远程，右键项目-&gt;team-&gt;romote-&gt;push</p>
+<p>将你Github的URL粘贴过来，输入用户名和密码<br><img src="//redlion1024.github.io/2019/08/01/Git常用操作/7.png" alt="提交到远程"></p>
+</li>
+<li><p>选择分支，添加后finish<br><img src="//redlion1024.github.io/2019/08/01/Git常用操作/8.png" alt="选择分支"></p>
+</li>
 </ol>
 
       
